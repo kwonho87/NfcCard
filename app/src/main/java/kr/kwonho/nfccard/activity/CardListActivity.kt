@@ -2,9 +2,10 @@ package kr.kwonho.nfccard.activity
 
 import android.app.Activity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kr.kwonho.nfccard.R
 
-class CardListActivity : Activity() {
+class CardListActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

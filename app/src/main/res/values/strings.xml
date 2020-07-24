@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">NfcCard</string>
-    <string name="btn_scan">SCAN</string>
-    <string name="btn_list">LIST</string>
+    <string name="scan">SCAN</string>
+    <string name="list">LIST</string>
 </resources>

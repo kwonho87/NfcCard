@@ -5,13 +5,20 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8e292a5f-4754-4164-b171-a1181c431f56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/CardListActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/ScanCardActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/apduservice.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/util/StringUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/util/StringUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/CardListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/CardListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/ScanCardActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/ScanCardActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/service/NfcService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/service/NfcService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +75,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/xml" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="kr.kwonho.nfccard.activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/xml" />
     </key>
   </component>
   <component name="RunManager">
@@ -168,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595569454906</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init project.">
+      <created>1595569927700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595569927700</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,21 +198,45 @@
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
     <state x="2200" y="781" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595568685359" />
+    <state x="2307" y="694" key="#com.intellij.ide.util.MemberChooser" timestamp="1595572383519">
+      <screen x="1920" y="23" width="1200" height="1897" />
+    </state>
+    <state x="2307" y="694" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595572383519" />
     <state x="2294" y="631" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1595568939644">
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
     <state x="2294" y="631" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595568939644" />
-    <state x="2153" y="572" key="CommitChangelistDialog2" timestamp="1595569454742">
+    <state x="2153" y="572" key="CommitChangelistDialog2" timestamp="1595569927535">
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
-    <state x="2153" y="572" key="CommitChangelistDialog2/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569454742" />
-    <state x="2029" y="610" key="SettingsEditor" timestamp="1595569726807">
+    <state x="2153" y="572" key="CommitChangelistDialog2/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569927535" />
+    <state width="1158" height="525" key="GridCell.Tab.0.bottom" timestamp="1595573821394">
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
-    <state x="2029" y="610" key="SettingsEditor/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569726807" />
-    <state x="2120" y="711" key="Vcs.Push.Dialog.v2" timestamp="1595569457682">
+    <state width="1158" height="525" key="GridCell.Tab.0.bottom/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595573821394" />
+    <state width="1158" height="525" key="GridCell.Tab.0.center" timestamp="1595573821394">
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
-    <state x="2120" y="711" key="Vcs.Push.Dialog.v2/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569457682" />
+    <state width="1158" height="525" key="GridCell.Tab.0.center/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595573821394" />
+    <state width="1158" height="525" key="GridCell.Tab.0.left" timestamp="1595573821393">
+      <screen x="1920" y="23" width="1200" height="1897" />
+    </state>
+    <state width="1158" height="525" key="GridCell.Tab.0.left/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595573821393" />
+    <state width="1158" height="525" key="GridCell.Tab.0.right" timestamp="1595573821394">
+      <screen x="1920" y="23" width="1200" height="1897" />
+    </state>
+    <state width="1158" height="525" key="GridCell.Tab.0.right/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595573821394" />
+    <state x="2029" y="610" key="SettingsEditor" timestamp="1595571541740">
+      <screen x="1920" y="23" width="1200" height="1897" />
+    </state>
+    <state x="2029" y="610" key="SettingsEditor/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595571541740" />
+    <state x="2120" y="711" key="Vcs.Push.Dialog.v2" timestamp="1595569928931">
+      <screen x="1920" y="23" width="1200" height="1897" />
+    </state>
+    <state x="2120" y="711" key="Vcs.Push.Dialog.v2/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569928931" />
+    <state x="2185" y="468" key="search.everywhere.popup" timestamp="1595570588341">
+      <screen x="1920" y="23" width="1200" height="1897" />
+    </state>
+    <state x="2185" y="468" key="search.everywhere.popup/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595570588341" />
   </component>
 </project>

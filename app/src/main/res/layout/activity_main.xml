@@ -13,12 +13,12 @@
         android:id="@+id/btnScan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_scan" />
+        android:text="@string/scan" />
 
     <Button
         android:id="@+id/btnList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_list" />
+        android:text="@string/list" />
 
 </LinearLayout>
