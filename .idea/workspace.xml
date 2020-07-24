@@ -7,12 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e292a5f-4754-4164-b171-a1181c431f56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/service/NfcService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/CardListActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/ScanCardActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/util/StringUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/util/StringUtil.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -161,11 +161,18 @@
       <option name="project" value="LOCAL" />
       <updated>1595568757220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init project.">
+      <created>1595569454906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595569454906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_PATCH_IN_EXPLORER" value="true" />
     <MESSAGE value="init project." />
     <option name="LAST_COMMIT_MESSAGE" value="init project." />
   </component>
@@ -178,13 +185,17 @@
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
     <state x="2294" y="631" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595568939644" />
-    <state x="2153" y="572" key="CommitChangelistDialog2" timestamp="1595568757073">
+    <state x="2153" y="572" key="CommitChangelistDialog2" timestamp="1595569454742">
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
-    <state x="2153" y="572" key="CommitChangelistDialog2/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595568757073" />
-    <state x="2029" y="610" key="SettingsEditor" timestamp="1595569082462">
+    <state x="2153" y="572" key="CommitChangelistDialog2/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569454742" />
+    <state x="2029" y="610" key="SettingsEditor" timestamp="1595569726807">
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
-    <state x="2029" y="610" key="SettingsEditor/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569082462" />
+    <state x="2029" y="610" key="SettingsEditor/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569726807" />
+    <state x="2120" y="711" key="Vcs.Push.Dialog.v2" timestamp="1595569457682">
+      <screen x="1920" y="23" width="1200" height="1897" />
+    </state>
+    <state x="2120" y="711" key="Vcs.Push.Dialog.v2/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569457682" />
   </component>
 </project>
