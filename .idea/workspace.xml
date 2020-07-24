@@ -6,7 +6,14 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e292a5f-4754-4164-b171-a1181c431f56" name="Default Changelist" comment="" />
+    <list default="true" id="8e292a5f-4754-4164-b171-a1181c431f56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/service/NfcService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/kr/kwonho/nfccard/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +32,22 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/kwonho87/NfcCard.git" />
+      </set>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -36,6 +57,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1f7SEsfNYBq9t5vhfdvjC0PpL6P" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +69,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="kr.kwonho.nfccard.activity" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -54,7 +84,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -117,16 +147,44 @@
       <option name="presentableId" value="Default" />
       <updated>1595567530239</updated>
     </task>
+    <task id="LOCAL-00001" summary="init project.">
+      <created>1595568639471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595568639471</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init project.">
+      <created>1595568757220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595568757220</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init project." />
+    <option name="LAST_COMMIT_MESSAGE" value="init project." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2200" y="781" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595568685359">
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
     <state x="2200" y="781" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595568685359" />
-    <state x="2153" y="572" key="CommitChangelistDialog2" timestamp="1595568639292">
+    <state x="2294" y="631" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1595568939644">
       <screen x="1920" y="23" width="1200" height="1897" />
     </state>
-    <state x="2153" y="572" key="CommitChangelistDialog2/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595568639292" />
+    <state x="2294" y="631" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595568939644" />
+    <state x="2153" y="572" key="CommitChangelistDialog2" timestamp="1595568757073">
+      <screen x="1920" y="23" width="1200" height="1897" />
+    </state>
+    <state x="2153" y="572" key="CommitChangelistDialog2/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595568757073" />
+    <state x="2029" y="610" key="SettingsEditor" timestamp="1595569082462">
+      <screen x="1920" y="23" width="1200" height="1897" />
+    </state>
+    <state x="2029" y="610" key="SettingsEditor/0.23.1920.1012/1920.23.1200.1897/-1680.23.1680.1027@1920.23.1200.1897" timestamp="1595569082462" />
   </component>
 </project>
