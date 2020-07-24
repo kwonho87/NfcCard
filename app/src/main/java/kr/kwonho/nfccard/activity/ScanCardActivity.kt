@@ -30,9 +30,13 @@ class ScanCardActivity : AppCompatActivity() {
         registNfcAdapter()
     }
 
+    override fun onPause() {
+        super.onPause()
+        nfcAdapter?.disableForegroundDispatch(this)
+    }
+
     override fun onDestroy() {
         super.onDestroy()
-        nfcAdapter?.disableForegroundDispatch(this)
     }
 
     private fun registNfcAdapter() {
